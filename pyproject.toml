@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "online-moment-selection"
+version = "0.1.0"
+description = "Online Moment Selection"
+readme = "README.md"
+authors = ["Shantanu Gupta"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipyparallel = "^8.6.1"
+pandas = "^2.2.0"
+numpy = "^1.26.3"
+isort = "^5.13.2"
+scipy = "^1.12.0"
+scikit-learn = "^1.4.0"
+matplotlib = "^3.8.2"
+tqdm = "^4.66.1"
+pyreadr = "^0.5.0"
+black = "^24.1.1"
+jupyter = "^1.0.0"
+jupyterlab = "^4.0.11"
+seaborn = "^0.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
